@@ -47,13 +47,13 @@ namespace BT1_C5
             for (int i = 1; i <= n; i++)
             {
                 if (n % i == 0)
-                { 
-                   Console.Write(i + " ");
+                {
+                    Console.Write(i + " ");
                 }
             }
 
         }
-        
+
         //Bai 2: in ra tay ca cac uoc so
         /// <summary>
         /// Ham kiem tra so nguyen to
@@ -83,9 +83,9 @@ namespace BT1_C5
             //return false;
         }
 
-       
+
         //Bai 4: Kiem tra so chinh phuong
-       
+
         //Bai 5: kiem tra so hoan hoa
         /// <summary>
         /// Ham kiem tra so hoan hoa
@@ -114,7 +114,7 @@ namespace BT1_C5
             int num1 = 0;
             int num2 = 0;
             int fi = 1;
-            for(int i= 1; i<n; i++)
+            for (int i = 1; i < n; i++)
             {
                 num1 = num2;
                 num2 = fi;
@@ -127,16 +127,16 @@ namespace BT1_C5
         {
             int a = 0;
             int b = 0;
-           
+
             Console.Write("Nhap vao gia tri a: ");
             int.TryParse(Console.ReadLine(), out a);
             Console.Write("Nhap vao gia tri b: ");
             int.TryParse(Console.ReadLine(), out b);
             int n = a;
             int m = b;
-            while (a != 0 && b!=0)
+            while (a != 0 && b != 0)
             {
-                if(a >=b)
+                if (a >= b)
                 {
                     a = a % b;
                 }
@@ -147,13 +147,13 @@ namespace BT1_C5
             }
             uscln = a + b;
             bscnn = (n * m) / uscln;
-  
+
         }
         //BT8: in ra bang cuu chuong
         static void InBangCuuChuong(int n)
         {
-           
-            for(int i =1; i<=n; i++)
+
+            for (int i = 1; i <= n; i++)
             {
                 Console.WriteLine($"{n} x {i} = {n * i}");
             }
@@ -231,3 +231,6 @@ namespace BT1_C5
         }
     }
 }
+/*
+Nguye Tien Dat da chinh sua o day
+*/
