@@ -12,6 +12,7 @@ namespace BT1_C5
 {
     class Program
     {
+        //o day la nhap menu ne
         //menu
         static void NhapMenu(ref char kiTu)
         {
