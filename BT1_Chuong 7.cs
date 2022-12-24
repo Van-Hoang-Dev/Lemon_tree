@@ -1,14 +1,10 @@
-﻿/*BT1
+﻿/*BT1: Thuc hien tao mang va goi ham
  * Name: Nguyen Van Hooang
- * MSSV: 22211TT2461
  * Date: 15/12/202
  * Modifed:23/12/2022
  */
+//Xoa phan khong dung den
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BT1_Chuong_6
 {
@@ -18,7 +14,7 @@ namespace BT1_Chuong_6
         {
             //Khai bao bien
             char chon = '\0';
-            char luaChonBai = ' ';
+            char luaChonBai = '\0'; 
             int viTri = 0;
             // tao mang so nguyen
             int[] arr = new int[] { };
