@@ -1,9 +1,8 @@
-﻿/*BT1: Thuc hien tao mang va goi ham
+/*BT1: Thuc hien tao mang va goi ham
  * Name: Nguyen Van Hooang
  * Date: 15/12/202
  * Modifed:23/12/2022
  */
-//Xoa phan khong dung den
 using System;
 
 namespace BT1_Chuong_6
